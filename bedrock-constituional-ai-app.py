@@ -27,7 +27,6 @@ from langchain.chains.constitutional_ai.models import ConstitutionalPrinciple
 
 from langchain_community.callbacks import StreamlitCallbackHandler
 
-from utils.callback_logger import CallBackLogger
 from utils.parser import MyOutputParser
 from utils.llm import LLM
 
