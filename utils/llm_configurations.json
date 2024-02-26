@@ -1,0 +1,40 @@
+{
+    "anthropic.claude-v1": {
+        "temperature": 0.01,
+        "top_p": 0.999,
+        "top_k": 250, 
+        "max_tokens_to_sample": 600,
+        "stop_sequences": ["\\n\\nHuman:"]
+    },
+    "anthropic.claude-v2":{
+        "temperature": 0.01,
+        "top_p": 0.999,
+        "top_k": 250,
+        "max_tokens_to_sample": 600,
+        "stop_sequences": ["\\n\\nHuman:"]
+    },
+    "anthropic.claude-v2:1":{
+        "temperature": 0.01,
+        "top_p": 0.999,
+        "top_k": 100,
+        "max_tokens_to_sample": 10000,
+        "stop_sequences": ["\\n\\nHuman:"]
+    },
+    "anthropic.claude-instant-v1": {
+        "temperature": 0.01,
+        "top_p": 0.999,
+        "top_k": 250,
+        "max_tokens_to_sample": 600,
+        "stop_sequences": ["\\n\\nHuman:"]
+    },
+    "meta.llama2-13b-chat-v1": {
+        "max_gen_len": 768, 
+        "temperature": 0.1,
+        "top_p": 0.9
+    },
+    "titan":{
+        "temperature": 0.1,
+        "topP": 1,
+        "maxTokenCount": 4096
+    }
+}
